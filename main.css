@@ -1,0 +1,27 @@
+html,body{height:100%;margin:0;padding:0}
+ul,li{text-indent:0;text-decoration:none;margin:0;padding:0}
+img{border:0}
+body{background-color:#000;color:#000;font:100%/18px helvetica, arial, sans-serif}
+canvas{cursor:crosshair;display:block;left:0;position:absolute;top:0;z-index:20}
+#header img{width:100%; height:20%;}
+#bg img{width:100%; height:80%;}
+#header,#bg{position:fixed;left:0;right:0;z-index:10}
+#header{top:0}
+#bg{position:fixed;z-index:-1;bottom:50px}
+audio{position:fixed;display:none;bottom:0;left:0;right:0;width:100%;z-index:5}
+
+#note{
+	color: #666666;
+	font-size: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 250px;
+}
+	#headerr{position:fixed;left:0;right:0;z-index:500}
+	#headerr{ top:90px}
+
+	#footer img{width:100%; height:100%;}
+	#footer{position:fixed;left:0;right:0;z-index:50}
+	#footer{ bottom:-40px}
+	
+	#whatsappICO img{position:fixed;left:10px;right:0;bottom:0px;z-index:600}
